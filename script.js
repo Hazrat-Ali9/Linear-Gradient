@@ -5,7 +5,7 @@ const color3 = document.querySelector(".color3");
 const body = document.getElementById("gradient");
 const randomizeButton = document.getElementById("randomize");
 const copyButton = document.getElementById("copy");
-
+// Script js 
 function setGradient() {
     body.style.background =
         "linear-gradient(to right, "
