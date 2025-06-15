@@ -1,0 +1,61 @@
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, red, yellow);
+    /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+/* Add these styles to your existing CSS */
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+.main {
+    display: none !important;
+}
+
+@media only screen and (max-width: 720px) {
+    h1, h2, h3, input , div {
+        display: none !important;
+    }
+    .main {
+        display: block !important;
+    }
+  }
